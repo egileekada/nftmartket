@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("./assets/fonts/Mulish-Medium.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Mulish-Regular";
+  src: url("./assets/fonts/Mulish-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-SemiBold";
+  src: url("./assets/fonts/Mulish-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Bold";
+  src: url("./assets/fonts/Mulish-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-ExtraBold";
+  src: url("./assets/fonts/Mulish-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish-Black";
+  src: url("./assets/fonts/Mulish-Black.ttf");
+}
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: url("./assets/fonts/NotoSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("./assets/fonts/NotoSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans-SemiBold";
+  src: url("./assets/fonts/NotoSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("./assets/fonts/NotoSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans-ExtraBold";
+  src: url("./assets/fonts/NotoSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans-Black";
+  src: url("./assets/fonts/NotoSans-Black.ttf");
 }
