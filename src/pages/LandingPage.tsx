@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import FifthScreen from '../components/LandingPageComponent/FifthScreen'
 import FirstScreen from '../components/LandingPageComponent/FirstScreen'
 import FourthScreen from '../components/LandingPageComponent/FourthScreen'
@@ -27,6 +28,9 @@ export default function LandingPage() {
                 </div>
                 <div className=' w-full ' >
                     <FifthScreen />
+                </div>
+                <div className=' w-full ' >
+                    <Footer />
                 </div>
             </div>
         </div>
