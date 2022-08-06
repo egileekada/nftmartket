@@ -10,7 +10,7 @@ export default function Navbar() {
                 <a className='  mx-3 ' >Explore</a>
                 <a className='  mx-3 ' >Create</a>
                 <a className='  mx-3 ' >Stats</a>
-                <button className=' bg-[#7a01d2] w-40 mx-3  h-11 rounded-md ' >
+                <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-40 mx-3  h-11 rounded-md ' >
                 Connect wallet
                 </button>
             </div>
