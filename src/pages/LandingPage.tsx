@@ -1,5 +1,7 @@
 import React from 'react'
+import FifthScreen from '../components/LandingPageComponent/FifthScreen'
 import FirstScreen from '../components/LandingPageComponent/FirstScreen'
+import FourthScreen from '../components/LandingPageComponent/FourthScreen'
 import SecondScreen from '../components/LandingPageComponent/SecondScreen'
 import ThirdScreen from '../components/LandingPageComponent/ThirdScreen'
 import Navbar from '../components/Navbar'
@@ -19,6 +21,12 @@ export default function LandingPage() {
                 </div>
                 <div className=' w-full ' >
                     <ThirdScreen />
+                </div>
+                <div className=' w-full ' >
+                    <FourthScreen />
+                </div>
+                <div className=' w-full ' >
+                    <FifthScreen />
                 </div>
             </div>
         </div>

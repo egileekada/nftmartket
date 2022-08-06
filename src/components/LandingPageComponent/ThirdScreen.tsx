@@ -22,6 +22,7 @@ export default function ThirdScreen() {
 
     return (
         <div className='w-full py-16 flex flex-col justify-center items-center ' > 
+            <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
             <div className=' w-full grid px-10 gap-6 grid-cols-3 ' >
                 {Items()}
                 {Items()}
@@ -29,9 +30,12 @@ export default function ThirdScreen() {
                 {Items()}
                 {Items()}
                 {Items()}
+                {Items()}
+                {Items()}
+                {Items()}
             </div>
-            <button className=' font-NotoSans-Bold w-40 bg-[#271a47] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
-                Buy Now 
+            <button className=' font-NotoSans-Bold w-40 bg-[#271a47] mt-14 text-[#FCFCFC] h-12 rounded-md ' >
+            Go to rankings 
             </button>
         </div>
     )
