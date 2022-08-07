@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar'
 
 export default function LandingPage() {
     return (
-        <div className=' w-full h-screen bg-[#0c0026] ' >
+        <div className=' w-full h-screen relative overflow-x-hidden bg-[#0c0026] ' >
             <div className=' h-auto w-full overflow-y-auto bg-[#0c0026]' >
                 <div className=' w-full' >
                     <Navbar />
@@ -23,6 +23,7 @@ export default function LandingPage() {
                 <div className=' w-full ' >
                     <ThirdScreen />
                 </div>
+                <button className=' fixed  bottom-44 bg-[#7ECD4E] right-12 z-50 font-NotoSans-SemiBold py-2 text-white w-36 shadow-2xl rounded-3xl' >Buy Now</button>
                 <div className=' w-full ' >
                     <FourthScreen />
                 </div>

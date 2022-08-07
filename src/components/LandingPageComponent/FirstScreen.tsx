@@ -1,9 +1,12 @@
 import React from 'react'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import Hero from "../../assets/images/nftslider.png"
+import SliderComponent from './SliderComponent';
 
 export default function FirstScreen() {
     return (
-        <div className=' w-full flex text-[#cfc7d5] items-center py-24 ' >
+        <div className=' w-screen flex text-[#cfc7d5]  relative py-24   ' >
             <div className=' w-full flex items-center justify-center ' >
                 <div className=' w-9/12 ' >
                     <p className=' text-base font-NotoSans-Medium  ' >Hero NFT Marketplace</p>
@@ -18,10 +21,29 @@ export default function FirstScreen() {
                         </button>
                     </div>
                 </div>
-            </div>
-            <div className=' w-full flex items-center justify-center ' >
-                <img src={Hero} className=" w-9/12 "  />
+            </div>   
+            <div className=' w-full  flex justify-center ' >
+            <SliderComponent />  
             </div>
         </div>
     )
 } 
+
+{/* <div>
+                                <div  className='relative w-full h-96 lg:h-70vh'>
+                                    <Image src={Picture}  objectFit='cover' layout='fill'  /> 
+                                    {/* <p className="legend">Legend 1</p> */}
+                            //     </div>
+                            // </div>
+                            // <div>
+                            //     <div  className='relative w-full h-96 lg:h-70vh'>
+                            //         <Image src={Picture}  objectFit='cover' layout='fill'  />
+                            //         {/* <p className="legend">Legend 1</p> */}
+                            //     </div>
+                            // </div>
+                            // <div>
+                            //     <div  className='relative w-full h-96 lg:h-70vh'>
+                            //         <Image src={Picture}  objectFit='cover' layout='fill'  />
+                            //         {/* <p className="legend">Legend 1</p> */}
+                            //     </div>
+                            // </div> */}
