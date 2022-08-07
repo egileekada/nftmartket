@@ -75,19 +75,19 @@ module.exports = {
       80: '20rem',
       96: '24rem',
       100: '48rem',
-      '450px': '450px',
+      '450px': '500px',
       '900px': '900px',
       '1360px': '1360px',
       '70vh': '70vh',
       '80vh': '80vh'
     },
-    // screens: {
-    //   sm: '640px',
-    //   md: '768px',
-    //   lg: '1024px',
-    //   xl: '1360px',
-    //   '2xl': '1536px',
-    // },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1360px',
+      '2xl': '1536px',
+    },
   },
   plugins: [],
 }

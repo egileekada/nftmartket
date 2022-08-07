@@ -19,7 +19,7 @@ export default function SecondScreen() {
                         </div>
                         <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
                         <p className=' text-[#737373] my-1 ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button className=' font-NotoSans-Bold w-full bg-[#3C3C3C] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
+                        <button className=' font-NotoSans-Bold w-full   bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
                             Buy Now 
                         </button>
                     </div>
@@ -29,7 +29,7 @@ export default function SecondScreen() {
                         </div>
                         <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
                         <p className=' text-[#737373] my-1 ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button className=' font-NotoSans-Bold w-full bg-[#3C3C3C] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
+                        <button className=' font-NotoSans-Bold w-full   bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
                             Buy Now 
                         </button>
                     </div>
@@ -39,7 +39,7 @@ export default function SecondScreen() {
                         </div>
                         <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
                         <p className=' text-[#737373] my-1 ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button className=' font-NotoSans-Bold w-full bg-[#3C3C3C] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
+                        <button className=' font-NotoSans-Bold w-full   bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] text-[#FCFCFC] h-12 mt-5 rounded-md ' >
                             Buy Now 
                         </button>
                     </div>

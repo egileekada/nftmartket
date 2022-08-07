@@ -13,11 +13,14 @@ export default function FifthScreen() {
 
     const Item =(url: any, name: any)=> {
         return(
-            <button className='w-full flex flex-col items-center ' >
-                <div className=' w-full py-6 h-72 rounded-md px-6 flex items-center   ' >
+            <button className='w-full flex flex-col px-6 items-center ' >
+                <div className=' w-full py-6 h-72 rounded-md  flex items-center   ' >
                     <img src={url} className=' w-full h-full rounded-md object-cover' />
                 </div>
-                <p className='text-[#FCFCFC] font-NotoSans-Medium mt-3  ' >{name}</p>
+                <div className=' text-[#FCFCFC] w-full flex items-center justify-between mt-3  ' >
+                    <p className=' font-NotoSans-Medium  ' >{name}</p>
+                    <a className=' font-NotoSans-Medium text-lg' >View All</a>
+                </div>
             </button>
         )
     }

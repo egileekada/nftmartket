@@ -35,7 +35,7 @@ export default function ThirdScreen() {
                 {Items()}
                 {Items()}
             </div>
-            <button className=' font-NotoSans-Bold w-40 bg-[#271a47] mt-14 text-[#FCFCFC] h-12 rounded-md ' >
+            <button className=' font-NotoSans-Bold w-40  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] mt-14 text-[#FCFCFC] h-12 rounded-md ' >
             Go to rankings 
             </button>
         </div>
