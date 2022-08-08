@@ -5,8 +5,8 @@ import shop from "../assets/images/shop.svg"
 export default function Navbar() {
     return (
         <div className=' xl:w-1360px flex justify-between items-center w-full h-24 px-28  ' >
-            <p className=' text-2xl text-white font-NotoSans-ExtraBold ' >Hero</p>
-            <div className=' flex items-center text-[#e9f7d7] font-NotoSans-Medium ' >
+            <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' >Hero</a>
+            <div className=' flex items-center text-[#fff] font-NotoSans-Medium ' >
                 <a href='/explore'  className=' mx-6 ' >Explore</a>
                 <a className=' mx-6 ' >Create</a>
                 <a className=' mx-6 ' >Stats</a>

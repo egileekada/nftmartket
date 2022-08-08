@@ -26,18 +26,20 @@ export default function FifthScreen() {
     }
 
     return (
-        <div  className='w-full py-16 flex flex-col justify-center items-center ' > 
-            <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
-            <div className=' w-full grid px-10 gap-6 grid-cols-3 ' > 
-               {Item(c1, "Art")}
-               {Item(c2, "Collectible")}
-               {Item(c3, "Sports")}
-               {Item(c4, "Domain Names")}
-               {Item(c5, "Music")}
-               {Item(c6, "Utility")}
-               {Item(c7, "Photography")}
-               {Item(c8, "Trading Cards")}
-               {Item(c9, "Virtual Worlds")}
+        <div className=' w-full flex justify-center ' > 
+            <div className='w-full xl:w-1360px py-16 flex flex-col justify-center items-center ' > 
+                <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
+                <div className=' w-full grid px-10 gap-6 grid-cols-3 ' > 
+                {Item(c1, "Art")}
+                {Item(c2, "Collectible")}
+                {Item(c3, "Sports")}
+                {Item(c4, "Domain Names")}
+                {Item(c5, "Music")}
+                {Item(c6, "Utility")}
+                {Item(c7, "Photography")}
+                {Item(c8, "Trading Cards")}
+                {Item(c9, "Virtual Worlds")}
+                </div>
             </div>
         </div>
     )

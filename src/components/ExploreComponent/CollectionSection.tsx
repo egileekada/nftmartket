@@ -9,12 +9,15 @@ import cb6 from "../../assets/images/cb6.png"
 import cb7 from "../../assets/images/cb7.png"
 import cb8 from "../../assets/images/cb8.png"
 import cb9 from "../../assets/images/cn9.png"
+import { useNavigate } from 'react-router-dom'
 
 export default function CollectionSection() {
 
+    const navigate = useNavigate()
+
     const Collections =(item: any, user: any)=> {
         return( 
-            <div className=' w-full flex flex-col items-center bg-[#F3F3F3] pb-6 rounded-lg mx-2 ' >
+            <button onClick={()=> navigate("/collection")} className=' w-full flex flex-col items-center bg-[#F3F3F3] pb-6 rounded-lg mx-2 ' >
                 <div className='w-full flex justify-center relative h-72 rounded-t-lg' >
                         <img src={item} className="w-full h-full object-cover  rounded-t-lg" />
                     <div className=' w-28 h-28 absolute left-auto right-auto -bottom-12 rounded-full  ' >
@@ -27,10 +30,10 @@ export default function CollectionSection() {
                     <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
                     <p className=' text-[#737373] my-1  text-center  ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                 </div>
-            </div> 
+            </button> 
         )
     }
-
+    
     return (
         <div className=' xl:w-1360px pb-10 ' >
             <div className='  w-full px-20 py-12' >
