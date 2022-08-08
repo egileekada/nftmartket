@@ -68,18 +68,4 @@ export default function FourthScreen() {
             </div>
         </div>
     )
-} 
-
-
-                    {/* <div className=' w-full flex flex-col items-center mx-2 ' >
-                        <div className='w-full flex justify-center relative h-72' >
-                                <img src={b2} className="w-full h-full object-cover" />
-                            <div className=' w-28 h-28 absolute left-auto right-auto -bottom-8 rounded-full  ' >
-                                <img src={u2} className="w-full h-full object-cover rounded-full" />
-                            </div>
-                        </div>
-                        <p className='mt-10' >Bored apes</p>
-                        <p className='' >by illiand</p>
-                        <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
-                        <p className=' text-[#737373] my-1  text-center  ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
-                    </div> */}
+}  

@@ -6,7 +6,7 @@ import SliderComponent from './SliderComponent';
 
 export default function FirstScreen() {
     return (
-        <div className=' w-screen flex text-[#cfc7d5]  relative py-24   ' >
+        <div className=' flex text-[#cfc7d5]  relative py-24   ' >
             <div className=' w-full flex items-center justify-end ' >
                 <div className=' w-9/12 ' >
                     <p className=' text-base font-NotoSans-Medium  ' >Hero NFT Marketplace</p>
