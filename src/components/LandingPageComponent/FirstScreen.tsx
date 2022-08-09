@@ -7,7 +7,7 @@ import bg from "../../assets/images/gradient.png";
 
 export default function FirstScreen() {
     return (
-        <div className=' flex text-[#cfc7d5]  relative py-24  ' >
+        <div className=' w-full flex text-[#cfc7d5]  relative py-24  ' >
             <img src={bg} className='w-full h-full absolute inset-0'  />
             <div className=' w-full flex items-center z-20 justify-end ' >
                 <div className=' w-9/12 ' >

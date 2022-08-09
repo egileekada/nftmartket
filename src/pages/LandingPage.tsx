@@ -10,8 +10,8 @@ import Navbar from '../components/Navbar'
 export default function LandingPage() {
     return (
         <div className=' w-auto h-auto relative flex flex-col items-center overflow-y-auto overflow-x-hidden bg-[#0c0026] ' >
-            <div className=' h-auto  w-full overflow-x-hidden  bg-[#0c0026]' >
-                <div className=' w-full flex justify-center bg-[#100030] ' >
+            <div className=' h-auto  w-full overflow-x-hidden  bg-[#07012F]' >
+                <div className=' w-full flex justify-center bg-[#07012F] ' >
                     <Navbar />
                 </div>
                 <div className='  w-full flex justify-center ' >

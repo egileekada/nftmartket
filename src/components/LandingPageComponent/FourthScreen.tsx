@@ -29,59 +29,61 @@ export default function FourthScreen() {
     }
 
     return (
-        <div className=' w-full py-20  px-10' >
-            <div className='w-full flex items-center pb-10 justify-between '  > 
-                <p className=' font-NotoSans-Bold text-3xl text-left pl-4 text-[#FCFCFC]' >Popular collections</p>
-                <div className="flex items-center text-[#C2C2C2] " > 
-                    <button className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#352E65] ' >
-                        <IoIosArrowBack size={30} />
-                    </button>
-                    <button className=' w-12 h-12 ml-4 flex justify-center items-center pl-1 rounded-full bg-[#352E65] ' >
-                        <IoIosArrowForward size={30} />
-                    </button>
-                </div>
-            </div>
-            <div className=' w-full grid grid-cols-3 gap-6 text-[#cfc7d5] lg:mb-0 mb-8 ' > 
-                {/* <div className=' w-auto flex flex-1 px-4 font-NotoSans-Medium  ' >   */}
-                {Collections(b1, u1)}
-                {Collections(b2, u2)}
-                {Collections(b3, u3)}
-                     
-                    {/* <div className=' w-full flex flex-col font-NotoSans-Medium items-center mx-2 ' >
-                        <img src={b2} className="w-full h-64 object-cover" />
-                        <div className=' w-full flex items-center mt-5  ' >
-                            <div className='flex items-center' >
-                                <div className=' w-16 h-16  mr-4 rounded-full' >
-                                    <img src={u2} className="w-full h-full object-cover rounded-full" />
-                                </div>
-                                <div> 
-                                    <p>Creator</p>
-                                    <p className=' font-NotoSans-Bold mt-2 text-xl ' >Tom Haffty</p>
-                                </div>
-                            </div>
-                                <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-28 ml-auto mx-3  h-11 rounded-md ' >
-                                    Item 162
-                                </button>
-                        </div>
+        <div className="w-full flex justify-center" > 
+            <div className=' xl:w-1360px w-full py-20  px-10' >
+                <div className='w-full flex items-center pb-10 justify-between '  > 
+                    <p className=' font-NotoSans-Bold text-3xl text-left pl-4 text-[#FCFCFC]' >Popular collections</p>
+                    <div className="flex items-center text-[#C2C2C2] " > 
+                        <button className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#352E65] ' >
+                            <IoIosArrowBack size={30} />
+                        </button>
+                        <button className=' w-12 h-12 ml-4 flex justify-center items-center pl-1 rounded-full bg-[#352E65] ' >
+                            <IoIosArrowForward size={30} />
+                        </button>
                     </div>
-                    <div className=' w-full flex flex-col font-NotoSans-Medium items-center mx-2 ' >
-                        <img src={b3} className="w-full h-64 object-cover" />
-                        <div className=' w-full flex items-center mt-5  ' >
-                            <div className='flex items-center' >
-                                <div className=' w-16 h-16  mr-4 rounded-full' >
-                                    <img src={u3} className="w-full h-full object-cover rounded-full" />
+                </div>
+                <div className=' w-full grid grid-cols-3 gap-6 text-[#cfc7d5] lg:mb-0 mb-8 ' > 
+                    {/* <div className=' w-auto flex flex-1 px-4 font-NotoSans-Medium  ' >   */}
+                    {Collections(b1, u1)}
+                    {Collections(b2, u2)}
+                    {Collections(b3, u3)}
+                        
+                        {/* <div className=' w-full flex flex-col font-NotoSans-Medium items-center mx-2 ' >
+                            <img src={b2} className="w-full h-64 object-cover" />
+                            <div className=' w-full flex items-center mt-5  ' >
+                                <div className='flex items-center' >
+                                    <div className=' w-16 h-16  mr-4 rounded-full' >
+                                        <img src={u2} className="w-full h-full object-cover rounded-full" />
+                                    </div>
+                                    <div> 
+                                        <p>Creator</p>
+                                        <p className=' font-NotoSans-Bold mt-2 text-xl ' >Tom Haffty</p>
+                                    </div>
                                 </div>
-                                <div> 
-                                    <p>Creator</p>
-                                    <p className=' font-NotoSans-Bold mt-2 text-xl ' >Tom Haffty</p>
-                                </div>
+                                    <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-28 ml-auto mx-3  h-11 rounded-md ' >
+                                        Item 162
+                                    </button>
                             </div>
-                                <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-28 ml-auto mx-3  h-11 rounded-md ' >
-                                    Item 162
-                                </button>
                         </div>
-                    </div> */}
-                {/* </div>  */}
+                        <div className=' w-full flex flex-col font-NotoSans-Medium items-center mx-2 ' >
+                            <img src={b3} className="w-full h-64 object-cover" />
+                            <div className=' w-full flex items-center mt-5  ' >
+                                <div className='flex items-center' >
+                                    <div className=' w-16 h-16  mr-4 rounded-full' >
+                                        <img src={u3} className="w-full h-full object-cover rounded-full" />
+                                    </div>
+                                    <div> 
+                                        <p>Creator</p>
+                                        <p className=' font-NotoSans-Bold mt-2 text-xl ' >Tom Haffty</p>
+                                    </div>
+                                </div>
+                                    <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-28 ml-auto mx-3  h-11 rounded-md ' >
+                                        Item 162
+                                    </button>
+                            </div>
+                        </div> */}
+                    {/* </div>  */}
+                </div>
             </div>
         </div>
     )
