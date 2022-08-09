@@ -6,18 +6,18 @@ import Solona from "../../assets/images/SoloColor.svg"
 
 export default function ItemComponent() {
 
-    const [isHovering, setIsHovering] = React.useState(false)
+    const [isHovering, setIsHovering] = React.useState(-1)
     const array =[ "false", "true", "false", "false", "false", "false", "false", "true", "false", "true", ]
 
     const Items =(items: any, index: any)=> {
         return( 
-            <div key={index} onMouseOver={()=> setIsHovering(true)} onMouseOut={()=> setIsHovering(false)} className=' w-full h-fit bg-white shadow-2xl ' >
+            <div key={index} onMouseOver={()=> setIsHovering(index)} onMouseOut={()=> setIsHovering(-1)} className=' w-full h-fit bg-white shadow-2xl ' >
                 <img src={Pic} className=' w-full h-64 object-cover ' />
                 <div className=' px-6 bg-[#FFFFFF] pb-6 font-NotoSans-Regular  ' >
                     <p className=' font-NotoSans-Bold text-sm text-[#9C19FF] mt-3 ' >Bored cats #3321</p>
                     <p className=' text-[#707070] text-xs mt-3 ' >Price:</p>
                     <p className=' font-NotoSans-Bold text-center mt-1 text-lg flex items-center text-[#000] ' ><img src={Solona} className="mr-1 w-4" />0.166 <span className=' ml-2 text-[#707070] ' >(~$16.33)</span></p>
-                    {isHovering && (
+                    {isHovering === index && (
                         <>
                             {items === "false" ?  
                                 <div className=" w-full mt-3 flex font-NotoSans-SemiBold text-sm " >
@@ -30,7 +30,7 @@ export default function ItemComponent() {
                             }
                         </>
                     )}
-                    {!isHovering && (
+                    {isHovering  !== index && (
                         <div className=" w-full h-9 flex items-end mt-3 " > 
                             <p className=' text-[#707070] text-xs  flex items-center ' >Last sale: <img src={Solona} className="mr-1 ml-2 w-3" />0.166 </p>
                         </div>

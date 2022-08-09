@@ -11,7 +11,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 export default function HeroSection() {
     return (
-        <div className=' w-full flex flex-col items-center text-[#4D0E7D] ' >
+        <div className=' w-full flex flex-col items-center text-[#000] ' >
             <div className=' w-full h-64 relative flex justify-center bg-blue-500  ' > 
                 <div className=' w-28 h-28 rounded-full bg-pink-300 shadow-xl mx-auto absolute -bottom-14 ' >
 
