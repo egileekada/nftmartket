@@ -1,4 +1,5 @@
 import React from 'react'
+import ActivityComponent from '../components/CollectionComponent/ActivityComponent'
 import HeroSection from '../components/CollectionComponent/HeroSection'
 import ItemComponent from '../components/CollectionComponent/ItemComponent'
 import Navbar from '../components/Navbar'
@@ -31,6 +32,11 @@ export default function CollectionItems() {
                 {!tab && ( 
                     <div className=' xl:w-1360px w-full mt-10 my-8 px-10' > 
                             <ItemComponent /> 
+                    </div>
+                )}
+                {tab && ( 
+                    <div className=' xl:w-1360px w-full mt-10 my-8 px-10' > 
+                            <ActivityComponent /> 
                     </div>
                 )}
             </div>
