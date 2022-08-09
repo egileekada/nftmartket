@@ -7,13 +7,13 @@ import bg from "../../assets/images/gradient.png";
 
 export default function FirstScreen() {
     return (
-        <div className=' w-full flex text-[#cfc7d5]  relative py-24  ' >
-            <img src={bg} className='w-full h-full absolute inset-0'  />
+        <div className=' w-full flex text-[#cfc7d5] justify-center relative py-24  ' >
+            <img src={bg} className='w-full h-full object-cover absolute inset-0'  />
             <div className=' w-full flex items-center z-20 justify-end ' >
-                <div className=' w-9/12 ' >
-                    <p className=' text-base font-NotoSans-Medium  ' >Hero NFT Marketplace</p>
-                    <p className=' text-6xl font-NotoSans-Bold py-1  ' >Discover, collect & sell NFT digital art</p>
-                    <p  className=' text-base font-NotoSans-Medium '>Change the world with your NFTs Affect lives positively using NFT technology</p>
+                <div className=' w-560px xl:w-600px  ' >
+                    <p className=' text-base font-NotoSans-Medium text-[#31CF99] ' >Hero NFT Marketplace</p>
+                    <p className=' text-6xl xl:text-7xl leading-tight font-NotoSans-Bold py-3  ' >Discover, collect & <br/> sell NFT digital art</p>
+                    <p  className=' text-base font-NotoSans-Medium '>Change the world with your NFTs <br/>Affect lives positively using NFT technology</p>
                     <div className=' w-auto mt-8 flex font-NotoSans-SemiBold ' >
                         <button className=' hover:from-[#4E5FC0] hover:to-[#A100E2] bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-40 mr-3  h-12 rounded-md ' >
                             Explore
@@ -24,7 +24,7 @@ export default function FirstScreen() {
                     </div>
                 </div>
             </div>   
-            <div className=' w-full pl-16 flex justify-start ' >
+            <div className=' w-full pl-20 flex justify-start ' >
                 <SliderComponent />  
             </div>
         </div>

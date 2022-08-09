@@ -6,11 +6,11 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export default function SecondScreen() {
     return (
-        <div className=' w-full flex justify-center bg-[#170031] ' > 
+        <div className=' w-full flex justify-center   ' > 
             <div className='w-full xl:w-1360px py-24 ' > 
                 <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Featured Drops</p>
                 <div className=' w-full flex items-center text-[#cfc7d5] px-10 lg:mb-0 mb-8 ' >
-                    <button className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#24083c] ' >
+                    <button className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#352E65] ' >
                         <IoIosArrowBack size={30} />
                     </button>
                     <div className=' w-auto flex flex-1 px-4 font-NotoSans-Medium  ' >
@@ -39,7 +39,7 @@ export default function SecondScreen() {
                             </div> 
                         </div>
                     </div>
-                    <button className=' w-12 h-12 flex justify-center items-center pl-1 rounded-full bg-[#3C3C3C] ' >
+                    <button className=' w-12 h-12 flex justify-center items-center pl-1 rounded-full bg-[#352E65] ' >
                         <IoIosArrowForward size={30} />
                     </button>
                 </div>

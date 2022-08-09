@@ -10,8 +10,8 @@ import s3 from "../../assets/images/Slide3.png"
 class SliderComponent extends Component {
     render() {
         return (
-            <div className="relatives w-450px" > 
-                <Carousel autoPlay infiniteLoop className=' w-450px   ' >
+            <div className="relatives w-560px xl:w-560px" > 
+                <Carousel ariaLabel="" autoPlay infiniteLoop className=' w-560px   ' >
                     <div>
                         <div className='w-full rounded-lg'      >
                             <img src={s1} className=" w-450px rounded-lg "  />

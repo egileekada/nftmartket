@@ -5,8 +5,8 @@ import logo from "../assets/images/Logo.png"
 
 export default function Navbar(props: any) {
     return (
-        <div className=' xl:w-1360px flex justify-between items-center w-full h-24 px-10  ' >
-            <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' ><img src={logo} alt="logo" className="w-11 h-11" /></a>
+        <div className=' xl:w-1360px flex justify-between items-center w-full h-24 xl:px-2 px-20  ' >
+            <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold xl:-ml-8 ' ><img src={logo} alt="logo" className="w-11 h-11" /></a>
             <div className={!props.color ? ' flex items-center text-[#fff] font-NotoSans-Medium ' : ' flex items-center text-[#000] font-NotoSans-Medium '} >
                 <a href='/explore'  className=' mx-6 ' >Explore</a>
                 <a className=' mx-6 ' >Create</a>

@@ -10,28 +10,28 @@ import Solo from "../../assets/images/SoloColor.svg"
 export default function ActivityComponent() {
     return (
         <div className=' w-full flex mt-8  ' >
-            <div className=' w-72 text-[#4D0E7D] ' >
-                <div className=' w-full py-8  px-6 bg-white rounded-md shadow-2xl ' >
+            <div className=' w-72 text-[##000000] ' >
+                <div className=' w-full py-8  px-6 bg-white rounded-md shadow-lg ' >
                     <p className=' font-NotoSans-Bold mb-4 ' >Price</p>
                     <Select fontSize="sm" size="lg" className='font-NotoSans-Bold' placeholder='Last 30 days' backgroundColor="#EEEEEE" /> 
                 </div>
-                <div className=' w-full py-8 px-6 mt-8 bg-white rounded-md shadow-2xl ' >
+                <div className=' w-full py-8 px-6 mt-8 bg-white rounded-md shadow-lg ' >
                     <p className=' font-NotoSans-Bold ' >Filter</p>
                     <div className=' mt-4 bg-[#EEEEEE] px-4 rounded-md  h-11 flex justify-between items-center ' >
                         <p className=' font-NotoSans-Regular ' >Sales</p>
-                        <input type="checkbox" className=" bg-[#4D0E7D] w-5 h-5 " />
+                        <input type="checkbox" className=" bg-[#000000] w-5 h-5 " />
                     </div>
                     <div className=' mt-3 bg-[#EEEEEE] px-4 rounded-md  h-11 flex justify-between items-center ' >
                         <p className=' font-NotoSans-Regular ' >Offers</p>
-                        <input type="checkbox" className=" bg-[#4D0E7D] w-5 h-5 " />
+                        <input type="checkbox" className=" bg-[#000000] w-5 h-5 " />
                     </div>
                     <div className=' mt-3 bg-[#EEEEEE] px-4 rounded-md  h-11 flex justify-between items-center ' >
                         <p className=' font-NotoSans-Regular ' >Listings</p>
-                        <input type="checkbox" className=" bg-[#4D0E7D] w-5 h-5 " />
+                        <input type="checkbox" className=" bg-[#000000] w-5 h-5 " />
                     </div>
                     <div className=' mt-3 bg-[#EEEEEE] px-4 rounded-md  h-11 flex justify-between items-center ' >
                         <p className=' font-NotoSans-Regular ' >Transfers</p>
-                        <input type="checkbox" className=" bg-[#4D0E7D] w-5 h-5 " />
+                        <input type="checkbox" className=" bg-[#000000] w-5 h-5 " />
                     </div>
                 </div>
             </div>
@@ -41,14 +41,14 @@ export default function ActivityComponent() {
                 <TableContainer>
                     <Table variant="striped" colorScheme="gray"> 
                         <Thead>
-                        <Tr className=' font-NotoSans-Bold text-[#4D0E7D] ' >
+                        <Tr className=' font-NotoSans-Bold text-[#000000] ' >
                             <Th></Th>
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>Item</p></Th>
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>Price</p></Th>
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>Qty</p></Th>
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>From</p></Th> 
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>To</p></Th>
-                            <Th><p className=' font-NotoSans-Bold text-[#4D0E7D] '>Time</p></Th> 
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>Item</p></Th>
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>Price</p></Th>
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>Qty</p></Th>
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>From</p></Th> 
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>To</p></Th>
+                            <Th><p className=' font-NotoSans-Bold text-[#000000] '>Time</p></Th> 
                         </Tr>
                         </Thead>
                         <Tbody>
@@ -56,7 +56,7 @@ export default function ActivityComponent() {
                             <Td> 
                                 <div className=' flex items-center ' >
                                     <img src={Cart} className="w-4 mr-2" />
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Sale</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Sale</p>
                                 </div> 
                             </Td>
                             <Td>
@@ -64,16 +64,16 @@ export default function ActivityComponent() {
                                     <div className=' w-12 h-12 rounded-full mr-2 bg-[#C2C2C2] ' >
 
                                     </div>
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Heartbreak ridge</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Heartbreak ridge</p>
                                 </div>
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
-                            <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >1</p></Td>
+                            <Td><p className=' font-NotoSans-Regular text-[#000000] text-sm ' >1</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
@@ -83,7 +83,7 @@ export default function ActivityComponent() {
                             <Td> 
                                 <div className=' flex items-center ' >
                                     <img src={hold} className="w-4 mr-2" />
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >offer</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >offer</p>
                                 </div> 
                             </Td>
                             <Td>
@@ -91,7 +91,7 @@ export default function ActivityComponent() {
                                     <div className=' w-12 h-12 rounded-full mr-2 bg-[#C2C2C2] ' >
 
                                     </div>
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Heartbreak ridge</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Heartbreak ridge</p>
                                 </div>
                             </Td>
                             <Td>
@@ -100,7 +100,7 @@ export default function ActivityComponent() {
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
-                            <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >1</p></Td>
+                            <Td><p className=' font-NotoSans-Regular text-[#000000] text-sm ' >1</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
@@ -110,7 +110,7 @@ export default function ActivityComponent() {
                             <Td> 
                                 <div className=' flex items-center ' >
                                     <img src={price} className="w-4 mr-2" />
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >List</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >List</p>
                                 </div> 
                             </Td>
                             <Td>
@@ -118,16 +118,16 @@ export default function ActivityComponent() {
                                     <div className=' w-12 h-12 rounded-full mr-2 bg-[#C2C2C2] ' >
 
                                     </div>
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Heartbreak ridge</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Heartbreak ridge</p>
                                 </div>
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
-                            <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >1</p></Td>
+                            <Td><p className=' font-NotoSans-Regular text-[#000000] text-sm ' >1</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
@@ -137,7 +137,7 @@ export default function ActivityComponent() {
                             <Td> 
                                 <div className=' flex items-center ' >
                                     <img src={swap} className="w-4 mr-2" />
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Transfer</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Transfer</p>
                                 </div> 
                             </Td>
                             <Td>
@@ -145,16 +145,16 @@ export default function ActivityComponent() {
                                     <div className=' w-12 h-12 rounded-full mr-2 bg-[#C2C2C2] ' >
 
                                     </div>
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Heartbreak ridge</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Heartbreak ridge</p>
                                 </div>
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
-                            <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >1</p></Td>
+                            <Td><p className=' font-NotoSans-Regular text-[#000000] text-sm ' >1</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 

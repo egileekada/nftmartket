@@ -7,17 +7,17 @@ export default function ThirdScreen() {
 
     const Items =()=> {
         return( 
-            <div className=' w-full py-6 rounded-md px-6 flex items-center bg-[#2c0d4e] ' >
+            <div className=' w-full h-28 py-6 rounded-md px-6 flex items-center bg-[#2c0d4e] ' >
                 <div className=' w-14 h-14 bg-blue-500 rounded-full ' >
                     <img src={Users} className="w-full h-full rounded-full object-cover" />
                 </div>
                 <div className=' ml-4' >
                     <p className=' font-NotoSans-Bold text-[#cfc7d5] ' >Bored apes</p>
-                    <p className=' font-NotoSans-Medium text-[#737373] text-xs mt-3 flex items-center ' >Floor price: <img src={Solona} className="w-3 mx-1"  />263.00</p>
+                    <p className=' font-NotoSans-Medium text-[#737373] text-sm mt-3 flex items-center ' >Floor price: <img src={Solona} className="w-3 mx-1"  />263.00</p>
                 </div>
                 <div className=' ml-auto' >
-                    <p className=' font-NotoSans-Medium text-[#00AE23] text-xs  ' >+7.58%</p>
-                    <p className=' font-NotoSans-Medium text-[#737373] text-xs mt-4 flex items-center ' ><img src={Solona} className="w-3 mx-1"  />263.00</p>
+                    <p className=' font-NotoSans-Medium text-[#00AE23] text-sm  ' >+7.58%</p>
+                    <p className=' font-NotoSans-Medium text-[#737373] text-sm mt-4 flex items-center ' ><img src={Solona} className="w-3 mx-1"  />263.00</p>
                 </div>
             </div>
         )
