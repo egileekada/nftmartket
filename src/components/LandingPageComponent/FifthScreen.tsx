@@ -7,27 +7,29 @@ import c5 from "../../assets/images/c5.png"
 import c6 from "../../assets/images/c6.png"
 import c7 from "../../assets/images/c7.png"
 import c8 from "../../assets/images/c8.png"
+import bg from "../../assets/images/gradient2.png"
 import c9 from "../../assets/images/c9.png"
 
 export default function FifthScreen() {
 
     const Item =(url: any, name: any)=> {
         return(
-            <button className='w-full flex flex-col px-6 items-center ' >
-                <div className=' w-full py-6 h-72 rounded-md  flex items-center   ' >
-                    <img src={url} className=' w-full h-full rounded-md object-cover' />
+            <button className='w-full flex bg-[#352E65] flex-col px-4 items-center ' >
+                <div className=' w-full py-4 h-72 flex items-center   ' >
+                    <img src={url} className=' w-full h-full object-cover' />
                 </div>
-                <div className=' text-[#FCFCFC] w-full flex items-center justify-between mt-3  ' >
+                <div className=' text-[#FCFCFC] w-full flex items-center justify-center my-3 mb-4  ' >
                     <p className=' font-NotoSans-Medium  ' >{name}</p>
-                    <a className=' font-NotoSans-Medium text-lg' >View All</a>
+                    {/* <a className=' font-NotoSans-Medium text-lg' >View All</a> */}
                 </div>
             </button>
         )
     }
 
     return (
-        <div className=' w-full flex justify-center ' > 
-            <div className='w-full xl:w-1360px py-16 flex flex-col justify-center items-center ' > 
+        <div className=' relative w-full flex justify-center ' > 
+            <img src={bg} className="w-full h-full inset-0 object-cover absolute" /> 
+            <div className='w-full xl:w-1360px z-10 py-16 flex flex-col justify-center items-center ' > 
                 <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
                 <div className=' w-full grid px-10 gap-6 grid-cols-3 ' > 
                 {Item(c1, "Art")}

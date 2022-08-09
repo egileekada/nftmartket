@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <div className=' w-full ' > 
-            <div className=' w-full bg-[#170031] flex justify-center ' > 
+            <div className=' w-full bg-[#060125] flex justify-center ' > 
                 <div className='w-full xl:w-1360px py-20 flex flex-row justify-center items-center  ' >
                     <div className=' w-full flex flex-col items-center ' >
                         <div className=' w-96 ' > 
@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className=' w-full flex justify-center ' > 
+            <div className=' w-full flex justify-center bg-[#060125] ' > 
                 <div className='w-full xl:w-1360px flex justify-between font-NotoSans-Medium text-[#cfc7d5] text-sm py-3  px-24 ' >
                     <p>© 2020 Mockup. All Rights Reserved.</p>
                     <div className=' flex ' >

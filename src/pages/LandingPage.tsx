@@ -20,11 +20,11 @@ export default function LandingPage() {
                 <div className=' w-full ' >
                     <SecondScreen />
                 </div>
-                <div className=' w-full ' >
+                <div className=' w-full  ' >
                     <ThirdScreen />
                 </div>
                 {/* <button className=' fixed  bottom-44 bg-[#7ECD4E] right-12 z-50 font-NotoSans-SemiBold py-2 text-white w-36 shadow-2xl rounded-3xl' >Buy Now</button> */}
-                <div className=' w-full ' >
+                <div className=' w-full bg-[#060125] ' >
                     <FourthScreen />
                 </div>
                 <div className=' w-full ' >

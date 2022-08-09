@@ -17,18 +17,18 @@ export default function CollectionSection() {
 
     const Collections =(item: any, user: any)=> {
         return( 
-            <button onClick={()=> navigate("/collection")} className=' w-full flex flex-col items-center bg-[#F3F3F3] pb-6 rounded-lg mx-2 ' >
-                <div className='w-full flex justify-center relative h-72 rounded-t-lg' >
+            <button className=' w-full flex flex-col items-center bg-[#352E65] pb-6 rounded-lg mx-2 ' >
+                <div className='w-full flex justify-center relative h-40 rounded-t-lg' >
                         <img src={item} className="w-full h-full object-cover  rounded-t-lg" />
                     <div className=' w-28 h-28 absolute left-auto right-auto -bottom-12 rounded-full  ' >
                         <img src={user} className="w-full h-full object-cover rounded-full" />
                     </div>
                 </div>
-                <div className=' w-full flex flex-col items-center px-6' >
-                    <p className='mt-10' >Bored apes</p>
-                    <p className='' >by illiand</p>
-                    <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p>
-                    <p className=' text-[#737373] my-1  text-center  ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                <div className=' w-full flex flex-col items-center text-white px-6' >
+                    <p className='mt-10 font-NotoSans-Bold text-lg ' >Bored apes</p>
+                    <p className='font-NotoSans-Medium' >by <span className="text-[#31CF99]" >illiand</span></p>
+                    {/* <p className=' font-NotoSans-Bold mt-3  ' >Lorem Ipsum Dolor</p> */}
+                    <p className=' text-white my-1  text-center font-NotoSans-Medium  ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
                 </div>
             </button> 
         )
@@ -38,7 +38,7 @@ export default function CollectionSection() {
         <div className=' xl:w-1360px pb-10 ' >
             <div className='  w-full px-20 py-12' >
                 <div className=' w-full justify-center flex text-[#4D0E7D] font-NotoSans-Bold text-xl ' >
-                    <div className=' py-2 border-b-4 w-32 flex justify-center border-[#9C19FF] ' >
+                    <div className=' py-2 border-b-4 w-32 flex justify-center border-[#31CF99] ' >
                         <p >Trending</p>
                     </div>
                     <div className=' py-2 border-b w-32 flex justify-center border-gray-300 ' >
@@ -68,7 +68,7 @@ export default function CollectionSection() {
                 {Collections(cb4, avatar)}
                 {Collections(cb5, avatar)}
                 {Collections(cb6, avatar)}
-                {Collections(cb7, avatar)}
+                {/* {Collections(cb7, avatar)} */}
                 {Collections(cb8, avatar)}
                 {Collections(cb9, avatar)}
             </div>

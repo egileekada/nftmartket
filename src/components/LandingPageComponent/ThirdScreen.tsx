@@ -1,5 +1,6 @@
 import React from 'react'
 import Users from "../../assets/images/avatar.png"
+import bg from "../../assets/images/gradient2.png"
 import Solona from "../../assets/images/Solo.svg"
 
 export default function ThirdScreen() {
@@ -23,8 +24,9 @@ export default function ThirdScreen() {
     }
 
     return (
-        <div className=' w-full flex justify-center ' > 
-            <div className='w-full xl:w-1360px py-20 flex flex-col justify-center items-center ' > 
+        <div className=' relative w-full flex justify-center ' > 
+            <img src={bg} className="w-full h-full inset-0 object-cover absolute" /> 
+            <div className='w-full xl:w-1360px py-20 z-10 flex flex-col justify-center items-center ' > 
                 <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
                 <div className=' w-full grid px-10 gap-6 grid-cols-3 ' >
                     {Items()}

@@ -3,11 +3,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Hero from "../../assets/images/nftslider.png"
 import SliderComponent from './SliderComponent';
+import bg from "../../assets/images/gradient.png";
 
 export default function FirstScreen() {
     return (
-        <div className=' flex text-[#cfc7d5]  relative py-24   ' >
-            <div className=' w-full flex items-center justify-end ' >
+        <div className=' flex text-[#cfc7d5]  relative py-24  ' >
+            <img src={bg} className='w-full h-full absolute inset-0'  />
+            <div className=' w-full flex items-center z-20 justify-end ' >
                 <div className=' w-9/12 ' >
                     <p className=' text-base font-NotoSans-Medium  ' >Hero NFT Marketplace</p>
                     <p className=' text-6xl font-NotoSans-Bold py-1  ' >Discover, collect & sell NFT digital art</p>
