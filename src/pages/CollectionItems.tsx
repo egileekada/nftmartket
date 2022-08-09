@@ -10,8 +10,8 @@ export default function CollectionItems() {
 
     return (
         <div className=' w-full bg-[#FBFBFB] ' >
-            <div className=' w-full flex justify-center bg-[#100030] ' >
-                <Navbar />
+            <div className=' w-full flex justify-center bg-[#fff] ' >
+                <Navbar color={true} />
             </div>
             <div className=' w-full ' >
                 <HeroSection />

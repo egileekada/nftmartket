@@ -6,8 +6,8 @@ import Navbar from '../components/Navbar'
 export default function Explore() {
     return (
         <div className=' w-full ' >
-            <div className=' w-full flex justify-center bg-[#100030] ' >
-                <Navbar />
+            <div className=' w-full flex justify-center bg-[#fff] ' >
+                <Navbar color={true} />
             </div>
             <div className='w-full' >
                 <HeroSection />

@@ -17,7 +17,7 @@ export default function CollectionSection() {
 
     const Collections =(item: any, user: any)=> {
         return( 
-            <button className=' w-full flex flex-col items-center bg-[#352E65] pb-6 rounded-lg mx-2 ' >
+            <button onClick={()=> navigate("/collection")} className=' w-full flex flex-col items-center bg-[#352E65] pb-6 rounded-lg mx-2 ' >
                 <div className='w-full flex justify-center relative h-40 rounded-t-lg' >
                         <img src={item} className="w-full h-full object-cover  rounded-t-lg" />
                     <div className=' w-28 h-28 absolute left-auto right-auto -bottom-12 rounded-full  ' >
