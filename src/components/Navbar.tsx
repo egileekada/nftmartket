@@ -4,13 +4,23 @@ import shop from "../assets/images/shop.svg"
 import logo from "../assets/images/Logo.png"
 
 export default function Navbar(props: any) {
+
+    const [isHovering, setIsHovering] = React.useState(false)
+
     return (
         <div className=' xl:w-1360px flex justify-between items-center w-full h-24 xl:-px-0 px-10  ' >
             <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' ><img src={logo} alt="logo" className="w-11 h-11" /></a>
             <div className={!props.color ? ' flex items-center text-[#fff] font-NotoSans-Medium ' : ' flex items-center text-[#000] font-NotoSans-Medium '} >
                 <a href='/explore'  className=' mx-6 ' >Explore</a>
                 <a className=' mx-6 ' >Create</a>
-                <a className=' mx-6 ' >Stats</a>
+                <div onMouseOver={()=> setIsHovering(true)} onMouseOut={()=> setIsHovering(false)} className='relative mx-6 ' >Stats
+                    {isHovering && (
+                        <div onMouseOver={()=> setIsHovering(true)} onMouseOut={()=> setIsHovering(false)} className=' w-28 font-NotoSans-SemiBold  bg-white shadow-xl flex flex-col py-4 border text-sm top-6 absolute z-30 -ml-9 ' >
+                            <a href='/ranking' className='  text-center ' >Ranking</a>
+                            <a href='/activity' className=' mt-3 text-center ' >Activity</a>
+                        </div>
+                    )}
+                </div>
                 <div className={props.color ? "w-10 h-10 mx-6 bg-[#E9D9F5] flex justify-center items-center rounded-full" : "w-10 h-10 mx-6 bg-[#352E65] flex justify-center items-center rounded-full"} >
                 <svg id="Icon_" data-name="Icon " xmlns="http://www.w3.org/2000/svg"  width="20.916" height="20.056" viewBox="0 0 24 24">
                     <rect id="Area_ICON:feather_search_SIZE:LARGE_STYLE:STYLE1_" data-name="Area [ICON:feather/search][SIZE:LARGE][STYLE:STYLE1]" width="24" height="24" fill="#fcfcfc" opacity="0"/>

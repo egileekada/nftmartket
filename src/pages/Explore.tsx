@@ -10,7 +10,7 @@ export default function Explore() {
                 <Navbar color={true} />
             </div>
             <div className='w-full' >
-                <HeroSection />
+                <HeroSection header="Explore collections" body="Explore collections on Hero NFT marketplace" />
             </div>
             <div className='w-full flex items-center flex-col' >
                 <CollectionSection />
