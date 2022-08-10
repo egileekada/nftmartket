@@ -12,7 +12,7 @@ export default function Navbar(props: any) {
             <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' ><img src={logo} alt="logo" className="w-11 h-11" /></a>
             <div className={!props.color ? ' flex items-center text-[#fff] font-NotoSans-Medium ' : ' flex items-center text-[#000] font-NotoSans-Medium '} >
                 <a href='/explore'  className=' mx-6 ' >Explore</a>
-                <a className=' mx-6 ' >Create</a>
+                <a href='/createnft' className=' mx-6 ' >Create</a>
                 <div onMouseOver={()=> setIsHovering(true)} onMouseOut={()=> setIsHovering(false)} className='relative mx-6 ' >Stats
                     {isHovering && (
                         <div onMouseOver={()=> setIsHovering(true)} onMouseOut={()=> setIsHovering(false)} className=' w-28 font-NotoSans-SemiBold  bg-white shadow-xl flex flex-col py-4 border text-sm top-6 absolute z-30 -ml-9 ' >

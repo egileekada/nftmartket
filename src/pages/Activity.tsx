@@ -64,7 +64,7 @@ export default function Activity() {
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={Cart} className="w-4 mr-2" />
+                                    <img alt="" src={Cart} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Sale</p>
                                 </div> 
                             </Td>
@@ -86,12 +86,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={hold} className="w-4 mr-2" />
+                                    <img alt="" src={hold} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >offer</p>
                                 </div> 
                             </Td>
@@ -105,7 +105,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -113,12 +113,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={price} className="w-4 mr-2" />
+                                    <img alt="" src={price} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >List</p>
                                 </div> 
                             </Td>
@@ -132,7 +132,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -140,12 +140,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={swap} className="w-4 mr-2" />
+                                    <img alt="" src={swap} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Transfer</p>
                                 </div> 
                             </Td>
@@ -159,7 +159,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -167,12 +167,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={Cart} className="w-4 mr-2" />
+                                    <img alt="" src={Cart} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Sale</p>
                                 </div> 
                             </Td>
@@ -186,7 +186,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -194,12 +194,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={hold} className="w-4 mr-2" />
+                                    <img alt="" src={hold} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >offer</p>
                                 </div> 
                             </Td>
@@ -213,7 +213,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -221,12 +221,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={price} className="w-4 mr-2" />
+                                    <img alt="" src={price} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >List</p>
                                 </div> 
                             </Td>
@@ -240,7 +240,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -248,12 +248,12 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         <Tr>
                             <Td> 
                                 <div className=' flex items-center ' >
-                                    <img src={swap} className="w-4 mr-2" />
+                                    <img alt="" src={swap} className="w-4 mr-2" />
                                     <p className=' font-NotoSans-Regular text-[#000000] text-sm ' >Transfer</p>
                                 </div> 
                             </Td>
@@ -267,7 +267,7 @@ export default function Activity() {
                             </Td>
                             <Td>
                                 <div className=' flex items-center justify-center flex-col ' >
-                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img src={Solo} className="w-4 mr-1" />3</p>
+                                    <p className=' font-NotoSans-Regular text-[#000000] text-sm flex ' > <img alt="" src={Solo} className="w-4 mr-1" />3</p>
                                     <p className=' font-NotoSans-Regular text-[#707070] mt-2 text-sm '>$3,000</p>
                                 </div>
                             </Td>
@@ -275,7 +275,7 @@ export default function Activity() {
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Namdjsdc</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm ' >Gudbdaa..</p></Td>
                             <Td><p className=' font-NotoSans-Regular text-[#4D0E7D] text-sm flex items-center ' >3 hours ago 
-                                    <button><img src={link} className="w-6 ml-2" /></button></p></Td>
+                                    <button><img alt="" src={link} className="w-6 ml-2" /></button></p></Td>
                         </Tr> 
                         </Tbody>
                     </Table>    

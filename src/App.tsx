@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, } from 'react-router-dom';  
 import Activity from './pages/Activity';
 import CollectionItems from './pages/CollectionItems';
+import CreateNft from './pages/CreateNft';
 import Explore from './pages/Explore';
 import LandingPage from './pages/LandingPage';
 import Ranking from './pages/Ranking';
@@ -15,6 +16,7 @@ function App() {
         <Route path='/collection' element={<CollectionItems />}/> 
         <Route path='/ranking' element={<Ranking />}/> 
         <Route path='/activity' element={<Activity />}/> 
+        <Route path='/createnft' element={<CreateNft />}/> 
       </Routes>
     </Router>
   );
