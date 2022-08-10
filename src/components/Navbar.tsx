@@ -1,11 +1,23 @@
 import React from 'react'
-import search from "../assets/images/search.svg"
-import shop from "../assets/images/shop.svg"
+import phantom from "../assets/images/phantom.png"
+import sollet from "../assets/images/sollet.png"
+import solflare from "../assets/images/solflare.png"
 import logo from "../assets/images/Logo.png"
+import { useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Button } from '@chakra-ui/react'
 
 export default function Navbar(props: any) {
 
-    const [isHovering, setIsHovering] = React.useState(false)
+    const [isHovering, setIsHovering] = React.useState(false) 
+
+    const OverlayOne = () => (
+      <ModalOverlay
+        bg='blackAlpha.300'
+        backdropFilter='blur(10px) hue-rotate(90deg)'
+      />
+    ) 
+  
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const [overlay, setOverlay] = React.useState(<OverlayOne />)
 
     return (
         <div className=' xl:w-1360px flex justify-between items-center w-full h-24 xl:-px-0 px-10  ' >
@@ -41,10 +53,58 @@ export default function Navbar(props: any) {
                     </svg>
                 </div>
                 {/* <img src={shop} className=" w-7 mx-6 " /> */}
-                <button className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-40 ml-10 mx-3 text-white  h-11 rounded-md ' >
+                <button 
+                    onClick={() => {
+                    setOverlay(<OverlayOne />)
+                    onOpen()
+                    }} className='  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] w-40 ml-10 mx-3 text-white  h-11 rounded-md ' >
                 Connect wallet
                 </button>
             </div>
+        <Modal size="6xl" isCentered isOpen={isOpen} onClose={onClose}>
+            {overlay}
+            <ModalContent boxSize="-moz-fit-content" >
+            <ModalHeader textAlign="center" ><p className=' font-NotoSans-Bold text-2xl pt-4 ' >Connect wallet</p></ModalHeader>
+            <ModalCloseButton />
+            <ModalBody> 
+                <div className=' w-auto grid grid-cols-3 gap-6 px-8 pb-16 py-12 ' >  
+                    <button className='w-56 h-auto' >
+                        <img src={phantom} alt="phantom" className=' w-56 h-56' />
+                        <p className=' font-NotoSans-Bold text-xl mt-4 ' >Phantom wallet</p>
+                    </button> 
+                    <button className='w-56 h-auto' >
+                        <img src={sollet} alt="sollet" className=' w-56 h-56' />
+                        <p className=' font-NotoSans-Bold text-xl mt-4 ' >Sollet wallet</p>
+                    </button> 
+                    <button className='w-56 h-auto' >
+                        <img src={solflare} alt="solflare" className=' w-56 h-56' />
+                        <p className=' font-NotoSans-Bold text-xl mt-4 ' >Solflare wallet</p>
+                    </button>
+                </div>
+            </ModalBody> 
+            </ModalContent>
+        </Modal>
+            {/* <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose}>
+                <ModalOverlay />
+                <ModalContent>
+                <ModalHeader>Connect wallet</ModalHeader>
+                <ModalCloseButton />
+                <ModalBody> 
+                    <div className=' w-full grid grid-cols-3 gap-6 ' >  
+                        <div className='w-56 h-56 bg-green-400' >
+
+                        </div>
+                    </div>
+                </ModalBody>
+
+                <ModalFooter>
+                    <Button colorScheme='blue' mr={3} onClick={onClose}>
+                    Close
+                    </Button>
+                    <Button variant='ghost'>Secondary Action</Button>
+                </ModalFooter>
+                </ModalContent>
+            </Modal> */}
         </div>
     )
 } 
