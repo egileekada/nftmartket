@@ -1,5 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import "./assets/css/aos.css"
+// import "./assets/css/bootstrap.min.css"
+// import "./assets/css/dark-theme.css"
+// import "./assets/css/fancybox.css"
+// import "./assets/css/aos.css"
+// import "./assets/css/jquery-ui-min.css"
+// import "./assets/css/owl.carousel.min.css"
+// import "./assets/css/remixicon.css"
+// import "./assets/css/style.css"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

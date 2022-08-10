@@ -27,10 +27,11 @@ export default function FifthScreen() {
     }
 
     return (
-        <div className=' relative w-full flex justify-center ' > 
+        <div className=' relative w-full flex  xl:px-20  justify-center ' > 
             <img src={bg} className="w-full h-full inset-0 object-cover absolute" /> 
-            <div className='w-full xl:w-1360px z-10 py-16 flex flex-col justify-center items-center ' > 
-                <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
+            <div className='w-full z-10 py-16 flex flex-col justify-center items-center ' > 
+                <p className=' font-NotoSans-Bold text-3xl text-center text-[#FCFCFC]' >Browse by category</p>
+                <div className=' w-28 bg-white mb-20 mx-auto mt-4 ' style={{height: "2px"}} ></div>
                 <div className=' w-full grid px-10 gap-6 grid-cols-3 ' > 
                 {Item(c1, "Art")}
                 {Item(c2, "Collectible")}

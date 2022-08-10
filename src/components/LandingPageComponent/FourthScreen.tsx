@@ -9,9 +9,14 @@ import u3 from "../../assets/images/pu3.png"
 
 export default function FourthScreen() {
 
+    const ref: any = React.useRef(null);  
+    const scroll = (scrolloffset : any ) =>{
+        ref.current.scrollLeft += scrolloffset 
+    };        
+
     const Collections =(item: any, user: any)=> {
         return( 
-            <button className=' w-full flex flex-col items-center bg-[#352E65] pb-6 rounded-lg mx-2 ' >
+            <button className=' w-500px flex flex-col items-center bg-[#352E65] pb-6 rounded-lg mx-2 ' >
                 <div className='w-full flex justify-center relative h-56 p-2 rounded-t-lg' >
                         <img src={item} className="w-full h-full object-cover  rounded-t-lg" />
                     <div className=' w-28 h-28 absolute left-auto right-auto -bottom-12 rounded-full  ' >
@@ -30,20 +35,27 @@ export default function FourthScreen() {
 
     return (
         <div className="w-full flex justify-center" > 
-            <div className=' xl:w-1360px w-full py-20  px-10' >
+            <div className=' w-full py-20 xl:px-20 px-10' >
                 <div className='w-full flex items-center pb-10 justify-between '  > 
-                    <p className=' font-NotoSans-Bold text-3xl text-left pl-4 text-[#FCFCFC]' >Popular collections</p>
+                    <div className='' > 
+                        <p className=' font-NotoSans-Bold text-3xl text-left pl-4 text-[#FCFCFC]' >Popular collections</p>
+                        <div className=' w-28 bg-white mb-20 mt-4 ml-4' style={{height: "2px"}} ></div>
+                    </div>
                     <div className="flex items-center text-[#C2C2C2] " > 
-                        <button className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#352E65] ' >
+                        <button onClick={()=> scroll(-500)}  className=' w-12 h-12 flex justify-center items-center pr-1 rounded-full bg-[#352E65] ' >
                             <IoIosArrowBack size={30} />
                         </button>
-                        <button className=' w-12 h-12 ml-4 flex justify-center items-center pl-1 rounded-full bg-[#352E65] ' >
+                        <button onClick={()=> scroll(500)}  className=' w-12 h-12 ml-4 flex justify-center items-center pl-1 rounded-full bg-[#352E65] ' >
                             <IoIosArrowForward size={30} />
                         </button>
                     </div>
                 </div>
-                <div className=' w-full grid grid-cols-3 gap-6 text-[#cfc7d5] lg:mb-0 mb-8 ' > 
+                    <div ref={ref} className='w-full flex flex-row mx-4 overflow-x-auto scroll_event'>
+                        <div className='flex flex-row  '>
                     {/* <div className=' w-auto flex flex-1 px-4 font-NotoSans-Medium  ' >   */}
+                    {Collections(b1, u1)}
+                    {Collections(b2, u2)}
+                    {Collections(b3, u3)}
                     {Collections(b1, u1)}
                     {Collections(b2, u2)}
                     {Collections(b3, u3)}
@@ -82,7 +94,7 @@ export default function FourthScreen() {
                                     </button>
                             </div>
                         </div> */}
-                    {/* </div>  */}
+                    </div> 
                 </div>
             </div>
         </div>

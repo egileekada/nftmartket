@@ -60,3 +60,20 @@
   font-family: "NotoSans-Black";
   src: url("./assets/fonts/NotoSans-Black.ttf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll_event::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll_event {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  transition: transform 0.3s ease-out;
+  scroll-behavior: smooth;
+}

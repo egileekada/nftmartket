@@ -7,7 +7,7 @@ export default function ThirdScreen() {
 
     const Items =()=> {
         return( 
-            <div className=' w-full h-28 py-6 rounded-md px-6 flex items-center bg-[#2c0d4e] ' >
+            <div className=' w-full h-32 py-6 rounded-md px-6 flex items-center bg-[#52028F] ' >
                 <div className=' w-14 h-14 bg-blue-500 rounded-full ' >
                     <img src={Users} className="w-full h-full rounded-full object-cover" />
                 </div>
@@ -26,8 +26,9 @@ export default function ThirdScreen() {
     return (
         <div className=' relative w-full flex justify-center ' > 
             <img src={bg} className="w-full h-full inset-0 object-cover absolute" /> 
-            <div className='w-full xl:w-1360px py-20 z-10 flex flex-col justify-center items-center ' > 
-                <p className=' font-NotoSans-Bold text-3xl pb-10 text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
+            <div className='w-full xl:w-1360px py-28 z-10 flex flex-col justify-center items-center ' > 
+                <p className=' font-NotoSans-Bold text-3xl  text-center text-[#FCFCFC]' >Top collections over last 24 hours</p>
+                <div className=' w-28 bg-white mb-20 mx-auto mt-4 ' style={{height: "2px"}} ></div>
                 <div className=' w-full grid px-10 gap-6 grid-cols-3 ' >
                     {Items()}
                     {Items()}
@@ -39,7 +40,7 @@ export default function ThirdScreen() {
                     {Items()}
                     {Items()}
                 </div>
-                <button className=' font-NotoSans-Bold w-40  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] mt-14 text-[#FCFCFC] h-12 rounded-md ' >
+                <button className=' font-NotoSans-Bold w-44  bg-gradient-to-r from-[#A100E2] via-[#7257CE] to-[#4E5FC0] mt-16 text-[#FCFCFC] h-12 rounded-md ' >
                 Go to rankings 
                 </button>
             </div>
