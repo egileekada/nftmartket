@@ -2,7 +2,7 @@ import React from 'react'
 import phantom from "../assets/images/phantom.png"
 import sollet from "../assets/images/sollet.png"
 import solflare from "../assets/images/solflare.png"
-import logo from "../assets/images/Logo.png"
+import logo from "../assets/images/logo.png"
 import { useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Button } from '@chakra-ui/react'
 
 export default function Navbar(props: any) {
@@ -21,7 +21,7 @@ export default function Navbar(props: any) {
 
     return (
         <div className=' xl:w-1360px flex justify-between items-center w-full h-24 xl:-px-0 px-10  ' >
-            <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' ><img src={logo} alt="logo" className="w-11 h-11" /></a>
+            <a href='/' className=' text-2xl text-white font-NotoSans-ExtraBold ' ><img src={logo} alt="logo" className="w-36" /></a>
             <div className={!props.color ? ' flex items-center text-[#fff] font-NotoSans-Medium ' : ' flex items-center text-[#000] font-NotoSans-Medium '} >
                 <a href='/explore'  className=' mx-6 ' >Explore</a>
                 <a href='/createnft' className=' mx-6 ' >Create</a>
